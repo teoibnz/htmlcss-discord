@@ -2,11 +2,62 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Whitney-Semibold', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    
 }
 
-
 header{
-    height: 80px;
+    height: 100px;
     width: 100%;
     background-color: #3161e0;
+}
+
+nav{
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform:translate(0, -22px);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.container{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.logo{
+    line-height: 100px;
+    
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 80px;
+    height: 100%;
+    color: white;
+    margin-right: 25px;
+}
+
+.float-left{
+    float: left;
+}
+
+.main-menu{
+    width: calc(100% - 200px);
 }
