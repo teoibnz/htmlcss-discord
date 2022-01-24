@@ -83,8 +83,17 @@ ul li{
     height: 500px; 
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    
+}
+
+.articles-img{
+    width: 70%;
+    margin-top: 150px;
+}
+
+.article-text{
+    width: 30%;
+    text-align: left;
+    margin-top: 180px;
 }
 
 #main-title{
@@ -102,4 +111,13 @@ ul li{
 #jumbo-container{
     padding-top: 150px;
     width: 50%;
+}
+
+.articles-title{
+    font-size: 3.0rem;
+}
+
+.articles{
+    font-size: 1.4rem;
+    padding-top: 30px;
 }
