@@ -47,6 +47,11 @@ nav{
     color: white;
 }
 
+.violet{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .container{
     width: 90%;
     max-width: 1180px;
@@ -110,6 +115,9 @@ ul li{
     padding-top: 30px;
 }
 
+.bottom{
+
+}
 #main-title{
     color: white;
     font-size: 3.5rem;
@@ -129,4 +137,11 @@ ul li{
 
 #big-img{
     width: 100%;
+}
+
+
+#bottom-title{
+    color: black;
+    margin-bottom: 60px;
+
 }
