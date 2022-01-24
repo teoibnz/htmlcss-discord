@@ -56,6 +56,10 @@ nav{
     text-align: center;
 }
 
+.main{
+    margin-bottom: 200px;
+}
+
 .logo{
     line-height: 100px;
     
@@ -97,6 +101,15 @@ ul li{
     padding-left: 40px;
 }
 
+.articles-title{
+    font-size: 3.0rem;
+}
+
+.articles{
+    font-size: 1.4rem;
+    padding-top: 30px;
+}
+
 #main-title{
     color: white;
     font-size: 3.5rem;
@@ -114,11 +127,6 @@ ul li{
     width: 50%;
 }
 
-.articles-title{
-    font-size: 3.0rem;
-}
-
-.articles{
-    font-size: 1.4rem;
-    padding-top: 30px;
+#big-img{
+    width: 100%;
 }
